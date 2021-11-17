@@ -3,6 +3,10 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   background: url("./Banner/banner.gif") no-repeat center center fixed;
     -webkit-background-size: cover;
