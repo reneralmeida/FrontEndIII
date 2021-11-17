@@ -1,0 +1,28 @@
+$opacBlack: rgba(0, 0, 0, 0.86);
+
+#about {
+  padding-top: 80px;
+}
+
+#profile-pic {
+  position: relative;
+  width: 250px;
+  height: 300px;
+  border-radius: 20px;
+  border: 5px solid black;
+  margin: 0 auto;
+  box-shadow: 15px 13px 46px -18px $opacBlack;
+}
+
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.text {
+  font-size: 2rem;
+  margin: 25px 50px 35px 0px;
+  cursor: default;
+}
